@@ -1,0 +1,9 @@
+digraph {
+	"[document]" [label="[document]" shape=box]
+	html [label=html shape=box]
+	"[document]" -> html
+	title [label=title shape=box]
+	html -> title
+	"Hola mundo" [label="Hola mundo" shape=ellipse]
+	title -> "Hola mundo"
+}
